@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Star Wars - TP7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Star Wars</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Películas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Planetas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="container mt-5">
+    <section class="row mb-5">
+      <div class="col-12">
+        <h2 class="text-center mb-3">La Galaxia muy, muy lejana</h2>
+        <p>
+          Star Wars es una de las franquicias más icónicas de la historia del cine. Creada por George Lucas en 1977,
+          la saga narra el eterno conflicto entre el bien y el mal en una galaxia muy, muy lejana. Jedi y Sith,
+          la Fuerza y la oscuridad, héroes y villanos que han capturado la imaginación de millones en todo el mundo
+          durante más de cuatro décadas.
+        </p>
+        <p>
+          Desde los áridos paisajes de Tatooine hasta las ciudades en las nubes de Bespin, cada rincón del universo
+          Star Wars está lleno de historia, cultura y conflicto. La saga principal comprende nueve episodios,
+          complementados por series, spin-offs, libros, cómics y videojuegos que expanden su universo sin límites.
+          La Fuerza une a todos los seres vivos: es energía, es vida, es el alma misma de la saga. Que la Fuerza
+          te acompañe.
+        </p>
+      </div>
+    </section>
+
+    <section class="row g-4 mb-5">
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+          <img src="luke.jpg" class="card-img-top" style="height:150px; object-fit:cover;" alt="Luke" />
+          <div class="card-body">
+            <h5 class="card-title">Luke Skywalker</h5>
+            <p class="card-text">El último Jedi y héroe de la Rebelión contra el Imperio Galáctico.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+          <img src="darth.jpg" class="card-img-top" style="height:150px; object-fit:cover;" alt="Vader" />
+          <div class="card-body">
+            <h5 class="card-title">Darth Vader</h5>
+            <p class="card-text">Señor Sith, guardián del Imperio y figura más temida de la galaxia.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+          <img src="leia.jpg" class="card-img-top" style="height:150px; object-fit:cover;" alt="Leia" />
+          <div class="card-body">
+            <h5 class="card-title">Leia Organa</h5>
+            <p class="card-text">Princesa, senadora y líder de la Alianza Rebelde contra el Imperio.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100">
+          <img src="han.jpg" class="card-img-top" style="height:150px; object-fit:cover;" alt="Han" />
+          <div class="card-body">
+            <h5 class="card-title">Han Solo</h5>
+            <p class="card-text">Contrabandista, capitán del Halcón Milenario y héroe a su pesar.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="row mb-5">
+      <div class="col-12">
+        <h2 class="text-center mb-4">FAQ</h2>
+        <div class="accordion" id="faqAccordion">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                ¿Cuántas películas tiene la saga principal?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                La saga Skywalker comprende 9 episodios, desde Una Nueva Esperanza (1977) hasta El Ascenso de Skywalker (2019). Además existen películas spin-off como Rogue One y Solo.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                ¿Qué es la Fuerza?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                La Fuerza es una energía mística que conecta a todos los seres vivos. Quienes son sensibles a ella pueden usarla para potenciar sus habilidades y mover objetos con la mente.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                ¿Dónde puedo ver las películas?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Toda la saga Star Wars está disponible en Disney+, junto con series como The Mandalorian, Obi-Wan Kenobi y Andor.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="row mb-5">
+      <div class="col-12 col-md-8 col-lg-6">
+        <h2 class="mb-4">Dejá tu comentario</h2>
+        <div class="mb-3">
+          <label class="form-label" for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="tu@email.com" />
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="comentario">Comentario</label>
+          <textarea class="form-control" id="comentario" rows="4" placeholder="Escribí tu comentario..."></textarea>
+        </div>
+        <div class="d-flex justify-content-end gap-2">
+          <button type="button" class="btn btn-secondary">Cancelar</button>
+          <button type="button" class="btn btn-dark">Enviar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
